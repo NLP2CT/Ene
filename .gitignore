@@ -1,0 +1,28 @@
+# Local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+data/
+outputs/
+results/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.wav
+*.mp3
+*.flac
+*.csv
+*.npy
+*.npz
+
+# Operating system files
+.DS_Store
+Thumbs.db
